@@ -4,7 +4,7 @@ import { Calendar } from 'react-native-calendars';
 import { SegmentedButtons, Button, Modal, Portal, TextInput, Snackbar } from 'react-native-paper';
 import WorkoutContext from './WorkoutContext';
 
-let nextId = 2; //Valmiina näkyvillä treeneillä id 0 ja 1. Tämän vuoksi käyttäjän lisäämät alkaa id:stä 2
+let nextId = 2; //Valmiina näkyvillä treeneillä id 0 ja 1. Tämän vuoksi käyttäjän lisäämät alkaa id:stä 2 
 
 const MyComponent = () => {
   const [value, setValue] = React.useState('');
